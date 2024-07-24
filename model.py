@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def load_and_preprocess_data():
-    data_path = r"C:\Users\siddh\OneDrive\Desktop\codsoft intern\MOVIE RATING PREDICTION WITH PYTHON\IMDb Movies India.csv"
+    data_path = r"IMDb Movies India.csv"
     
     try:
         data = pd.read_csv(data_path, encoding='utf-8')
